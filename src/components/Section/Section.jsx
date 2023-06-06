@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section.css'
-import { Col, Container, Nav, Row } from 'react-bootstrap'
+import { Button, Col, Container, Nav, Row } from 'react-bootstrap'
 import logo from './img/QPICK.png'
 import map1 from './img/Rectangle 6.png'
 export default function Section() {
@@ -63,38 +63,40 @@ export default function Section() {
                                         </select>
                                         <form className='free'>
                                             <input type="text" placeholder='Улица / Район' className='house-input'/>
-                                            <i class="fa-solid fa-pencil qalam1"></i>
+                                            <i class="fa-solid fa-pencil qalam10"></i>
                                             <div  className="two-house">
+                                                <div className='left-item'>
                                                 <input type="text"  placeholder='Дом' className='input-home'/>
-                                                <i class="fa-solid fa-pencil qalam1 d-none d-sm-block"></i>
-                                                <input type="text"  placeholder='Подъезд' className='input-home'/>
-                                                <i class="fa-solid fa-pencil qalam1  d-none d-sm-block"></i>
+                                                <i class="fa-solid fa-pencil qalam12 d-none d-sm-block"></i>
                                                 <input type="text"  placeholder='Квартира' className='input-home2'/>
-                                                <i class="fa-solid fa-pencil qalam1  d-none  d-sm-block"></i>
+                                                <i class="fa-solid fa-pencil qalam10  d-none  d-sm-block"></i>
+                                                </div>
+                                                <input type="text"  placeholder='Подъезд' id='name' className='input-home'/>
+                                                <i class="fa-solid fa-pencil qalam1  d-none d-sm-block"></i>
                                             </div>
                                         </form>
                                     </div>
                                 </div>
                             </Col>
-                            {/* <Col xs={5}>
-     <div className='card'>
-     <p className='zakaz1'>Ваш заказ</p>
-        <div className='key'>
-            <p className='number1'>1х</p>
+                            <Col xs={5}>
+     <div className='card56'>
+     <p className='zakaz'>Ваш заказ</p>
+        <div className='keys'>
+            <p className='number'>1х</p>
             <p className='nauwnik'>Наушники Apple BYZ S852I</p>
             <p className='sale'>₸ 2 927</p>
         </div>
-        <div className='key'>
+        <div className='keys'>
             <p className='nauwnik max'>Наушники Apple BYZ S852I</p>
             <p className='sale'>₸ 2 927</p>
         </div>
-        <div className='key'>
+        <div className='keys'>
             <p className='nauwnik max'>Наушники Apple BYZ S852I</p>
             <p className='sale'>₸ 2 927</p>
         </div>
      </div>
-     <div className='card1-1'>
-     <p className='zakaz1'>Способ оплаты</p>
+     <div className='card1'>
+     <p className='zakaz'>Способ оплаты</p>
      <div className='key'>
      <i class="fa-brands fa-cc-visa"></i>
      <p className='kaspi'>Счет на kaspi.kz</p>
@@ -112,17 +114,18 @@ export default function Section() {
      <i class="fa-solid fa-arrow-right"></i>
      </div>
      </div>
-     <div className='card2-1'>
-        <p className='zakaz1'>Номер получателя</p>
-        <input type="number" required="+7 ___ ___  " ></input>
+     <div className='card2'>
+        <p className='zakaz'>Номер получателя</p>
+        <input className='input' type="number" required="+7 ___ ___ __ __" ></input>
      </div>
-     <button className="btn">Закончить оформление</button>
-     </Col> */}
+     <Button className='btn-btn1'>Закончить оформление</Button>
+     </Col>
+                   
                         </Row>
                     </Container>
                 </section>
             <footer>
-                <Container className='main'>
+                <Container className='main23'>
                     <Row>
                         <Col lg={3}>
                             <h1 className='qpick'>QPICK</h1>
